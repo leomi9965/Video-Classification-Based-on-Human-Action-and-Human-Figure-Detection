@@ -2,12 +2,19 @@
 
 # Installation:
 numpy
+
 pandas
+
 matplotlib
+
 os
+
 tensorflow
+
 imutils
+
 imageio
+
 cv2
 
 # Usage:
