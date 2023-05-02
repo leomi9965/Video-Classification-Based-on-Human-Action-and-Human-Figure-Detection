@@ -1,7 +1,18 @@
-# 
+# Video Classification Based On Human Action And Human Figure Detection:
 
+# Installation:
+numpy
+pandas
+matplotlib
+os
+tensorflow
+imutils
+imageio
+cv2
 
-
+# Usage:
+In order to use this document, you will need to have your own video datasets and split them into two groups: train and test.
+The potential website for you to collect data is: https://www.pexels.com/zh-cn/ 
 
 
 # General guidelines: 
