@@ -37,7 +37,7 @@ For the human figure detection part, the main steps include loading a pre-traine
 
 First, we set up the environment by installing the necessary Python libraries, including TensorFlow, OpenCV, NumPy, etc.
 
-Second, we download the ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8 model as the pre-trained model from the TensorFlow Model Zoo and extract the files. We then train the model using the provided load_model() function to load the pre-trained model into the project.
+Second, we download the ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8 model and YOLOv5 as the pre-trained models. We then train the model using the provided load_model() function to load the pre-trained model into the project.
 
 Third, we prepare the video by selecting the input file containing the dancing people for human frame detection. We then specify the input video path and output paths for the extracted, processed, and final output video.
 
