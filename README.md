@@ -43,4 +43,4 @@ Third, we prepare the video by selecting the input file containing the dancing p
 
 Fourth, we extract video metadata using the get_video_duration() and get_video_fps_and_size() functions to obtain the video's duration, FPS, and frame size. We then utilize the extract_frames() function to convert the input video into individual frames.
 
-Finally, we process frames by detecting humans and drawing bounding boxes around them in the extracted frames by using the process_frames() function. Then we create the output video: merge the processed frames into a video using the frames_to_video() function. The output video will have the same FPS and frame size as the original video.
+Finally, we process frames by detecting humans and drawing bounding boxes around them in the extracted frames by using the process_frames() function. Then we create the output video: merge the processed frames into a video using the frames_to_video() function. The output video will have the same FPS and frame size as the original video. Notice that, we used different data preprocessing methods for two objection detection models.
